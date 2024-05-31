@@ -1,0 +1,67 @@
+@font-face {
+  font-family: Exo;
+  src: url(Exo2-VariableFont_wght.ttf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.text-box {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.text {
+  font-family: 'Exo';
+  text-align: center;
+  white-space: pre-line;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.text_success {
+  font-size: 38px;
+}
+
+.form {
+  width: 600px;
+  margin: 200px auto;
+  padding: 0px 20px 10px;
+  background-color: rgb(202, 202, 202);
+}
+x
+.button-box {
+  width: 180px;
+  margin: auto;
+}
+
+.input {
+  margin: 0 auto;
+}
+
+.input_hidden {
+  display: none;
+}
+
+.download {
+  display: none;
+}
+
+.download_shown {
+  margin: auto;
+  display: block;
+}
+
+.error {  
+  color: #f00;
+  font-size: 12px;
+  text-align: center;
+  opacity: 0;
+}
+
+.error_shown {
+  opacity: 100;
+}
